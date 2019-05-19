@@ -31,32 +31,39 @@ red='\e[1;31m'
 yellow='\e[1;33m'
 
 echo -e $red "MENGHUBUNGKAN..."
-sleep 0.30
+sleep 0.03
 apt-get update apt-get upgrade 
-sleep 0.30
+sleep 0.03
 clear
 echo -e $blue "DDOS WITH TERMUX..."
-sleep 0.10
+sleep 0.03
 echo
 echo -e $purple "---------------------------------------------"
+sleep 0.03
 echo -e $red "|CREATOR : HadiPrasetia (TampanSKY)|"
+sleep 0.03
 echo -e $blue "|Sekolah : MTs.AL-Khairiyah|"
+sleep 0.03
 echo -e $yellow "|TEAM : RED EYE CYBER TEAM Official|"
+sleep 0.03
 echo -e $blue "|Thanks To My FAMILY AND MY GOD|"
+sleep 0.03
 echo -e $red "|AND MY GIRLFRIENDS{assyfamawarni}|"
+sleep 0.03
 echo -e $purple "----------------------------------------------"
+sleep 0.03
 echo
-
 echo
-echo $cyan"---------------------------------"
-echo $green"           LIST MENU            "
-echo $cyan"---------------------------------"
-echo $cyan"[1].DOS BOTNET ATTACK"
-echo $cyan"[2].DDOS ATTACK ARMAGEDON LEVEL"
-echo $cyan"[3].EXIT"
-echo $cyan"---------------------------------"
-echo $white "╭─"$yellow"DDoS@USER"
-read -p " ╰─> " pil
+echo
+echo $cyan "---------------------------------"
+echo $red "           LIST MENU            "
+echo $blue "---------------------------------"
+echo $green "[1].DOS BOTNET ATTACK"
+echo $blue "[2].DDOS ATTACK ARMAGEDON LEVEL"
+echo $cyan "[3].EXIT"
+echo $green"---------------------------------"
+echo $white "╭─"$blue"DDoS@USER"
+read -p "╰─> " pil;
 
 #DOS BOTNET
 
