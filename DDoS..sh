@@ -31,9 +31,9 @@ red='\e[1;31m'
 yellow='\e[1;33m'
 
 echo -e $red "MENGHUBUNGKAN..."
-sleep 2.00
-pkg update pkg upgrade 
-sleep 1.00
+sleep 0.30
+apt-get update apt-get upgrade 
+sleep 0.30
 clear
 echo -e $blue "DDOS WITH TERMUX..."
 sleep 0.10
