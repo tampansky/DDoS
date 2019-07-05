@@ -86,14 +86,20 @@ echo -e $red "||==========================||"
 sleep 0.25
 echo ""
 sleep 0.25
-echo ""
 echo -e $white "||======================||"
+sleep 0.25
 echo -e $red "|| 1.DDos Trojan32      ||"
+sleep 0.25
 echo -e $white "|| 2.DDos Trojan64      ||"
+sleep 0.25
 echo -e $red "|| 3.DDos BotNet        ||"
+sleep 0.25
 echo -e $white "|| 4.DDos Hammers       ||"
+sleep 0.25
 echo -e $red "|| 5. Keluar/OUT        ||"
+sleep 0.25
 echo -e $white "||----------------------||"
+sleep 0.25
 read -p "[PILIH}:" dos 
 case $dos in 
 ("1")
