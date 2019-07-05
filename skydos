@@ -94,16 +94,16 @@ echo -e $red "|| 3.DDos BotNet        ||"
 echo -e $white "|| 4.DDos Hammers       ||"
 echo -e $red "|| 5. Keluar/OUT        ||"
 echo -e $white "||----------------------||"
-read -p "[PILIH}" dos 
+read -p "[PILIH}:" dos 
 case $dos in 
 ("1")
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "[IP}" pi 
+read -p "[IP}:" pi 
 echo ""
 echo -e $white "Massukan port" 
-read -p "[PORT}" rot
+read -p "[PORT}:" rot
 echo ""
 load
 echo -e "menghubungkan..."
@@ -114,10 +114,10 @@ python trojan32.py -s $pi -p $rot -t 135
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "[IP}" ip
+read -p "[IP}:" ip
 echo ""
 echo -e $white "Massukan port" 
-read -p "[PORT}" tor
+read -p "[PORT}:" tor
 echo ""
 load
 echo -e "menghubungkan..."
@@ -128,10 +128,10 @@ python trojan64.py -s $ip -p $tor -t 135
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "[IP}" yi
+read -p "[IP}:" yi
 echo ""
 echo -e $white "Massukan port" 
-read -p "[PORT}" yot
+read -p "[PORT}:" yot
 echo ""
 load
 echo -e "menghubungkan..."
@@ -142,10 +142,10 @@ python botnet.py -s $yi -p $yot -t 135
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "[IP}" yu 
+read -p "[IP}:" yu 
 echo ""
 echo -e $white "Massukan port" 
-read -p "[PORT}" yor
+read -p "[PORT}:" yor
 echo ""
 load
 echo -e "menghubungkan..."
