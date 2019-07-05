@@ -55,13 +55,14 @@ baner(){
 #install
 install(){
     echo -e $cyan"Menunggu sampai Selesai"
-    pkg install python -y
+    sleep 1 
+    pkg install python 
     sleep 0.25
     clear
-    pkg install python2 -y
+    pkg install python2 
     sleep 0.25
     clear
-    pkg install python3 -y
+    pkg install python3 
     sleep 0.25
     clear
 }
@@ -113,43 +114,43 @@ python trojan32.py -s $pi -p $rot -t 135
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "$cyan[IP}" pi 
+read -p "$cyan[IP}" ip
 echo ""
 echo -e $white "Massukan port" 
-read -p "$cyan[PORT}" rot
+read -p "$cyan[PORT}" tor
 echo ""
 load
 echo -e "menghubungkan..."
 sleep 1
-python trojan64.py -s $pi -p $rot -t 135
+python trojan64.py -s $ip -p $tor -t 135
 ;;
 ("3")
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "$cyan[IP}" pi 
+read -p "$cyan[IP}" yi
 echo ""
 echo -e $white "Massukan port" 
-read -p "$cyan[PORT}" rot
+read -p "$cyan[PORT}" yot
 echo ""
 load
 echo -e "menghubungkan..."
 sleep 1
-python botnet.py -s $pi -p $rot -t 135
+python botnet.py -s $yi -p $yot -t 135
 ;;
 ("4")
 load
 baner
 echo -e $red "Massukan server ip"
-read -p "$cyan[IP}" pi 
+read -p "$cyan[IP}" yu 
 echo ""
 echo -e $white "Massukan port" 
-read -p "$cyan[PORT}" rot
+read -p "$cyan[PORT}" yor
 echo ""
 load
 echo -e "menghubungkan..."
 sleep 1
-python Hammers.py -s $pi -p $rot -t 135
+python Hammers.py -s $yu -p $yor -t 135
 ;;
 ("5")
 load
