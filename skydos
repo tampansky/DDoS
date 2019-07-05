@@ -39,17 +39,17 @@ sleep 0.25
 }
 #Banner
 baner(){
-    echo -e $green "         __         ____            "
+    echo -e $red "         __         ____            "
     sleep 0.25
-    echo -e $green "   _____/ /____  __/ __ \____  _____"
+    echo -e $white "   _____/ /____  __/ __ \____  _____"
     sleep 0.25
-    echo -e $green "  / ___/ //_/ / / / / / / __ \/ ___/"
+    echo -e $red "  / ___/ //_/ / / / / / / __ \/ ___/"
     sleep 0.25
-    echo -e $green " (__  ) ,< / /_/ / /_/ / /_/ (__  )" 
+    echo -e $white " (__  ) ,< / /_/ / /_/ / /_/ (__  )" 
     sleep 0.25
-    echo -e $green "/____/_/|_|\__, /_____/\____/____/ " 
+    echo -e $red "/____/_/|_|\__, /_____/\____/____/ " 
     sleep 0.25
-    echo -e $green "          /____/                    "
+    echo -e $white "          /____/                    "
     sleep 0.25
 }
 #install
